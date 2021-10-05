@@ -5,17 +5,18 @@ const list=document.getElementById('navList')
 let clicked=false
 
 function displayNav(event){
+
    
-    if (list.style.display==='none' ){
-        list.style.display='flex'  
+    if (list.style.display==='flex'){
+        list.style.display='none'  
     }else{
-        list.style.display='none'
+        list.style.display='flex'
     }
+
 }
 
-if (list.style.width>768){
-    list.style.display='flex'
-}
+
+
 
 
 
