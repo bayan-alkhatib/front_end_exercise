@@ -1,0 +1,65 @@
+main section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 4% 0;
+
+}
+
+#team, #members div h2{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+main section:first-child h3{
+    width: 100%;
+    text-align: center;
+    margin-top:2%;
+    font-size: small;
+}
+
+#members{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+#members div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#members div h2{
+    margin-bottom:3%;
+    margin-top: 1%;
+}
+
+#members div img{
+    width: 35%;
+    height:70%;
+    text-align: center;
+    border-radius:50% ;
+    margin-top: 6%;
+}
+
+@media (min-width:340px) and (max-width:767px){
+    #members{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items:center;
+        margin: 5% 0;
+    }
+
+    #members div{
+        width: 100%;
+    }
+
+    main section:first-child h3{
+        margin-top: 4%;
+    }
+
+}

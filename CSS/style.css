@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./mainComponents/TeamComponent.css);
+@import url(./mainComponents/customerComponent.css);
+@import url(./mainComponents/contactComponent.css);
+@import url(./footer.css);
+
+* {
+    box-sizing: border-box;   
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+main{
+    width:100%;
+    position: relative;
+}
+

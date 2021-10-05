@@ -1,0 +1,109 @@
+#section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gainsboro;
+    margin: 0;
+    margin-bottom:2% ;
+}
+
+#contact{
+    margin:3% 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+}
+
+#contact p{
+    margin: 1% 0;
+}
+
+#contact h2{
+    font-weight: bold;
+    text-decoration: underline rgb(10, 160, 160) 5px;
+    text-underline-position:under;
+    margin:3% 0 ;
+}
+
+#contact h3{
+    font-weight:bolder;
+    margin:2% 0 ;
+}
+
+form{
+    background-color:white;
+    box-shadow:  2px 2px rgb(163, 162, 162), 2px 2px rgb(163, 162, 162);
+    border-radius:2px ;
+    margin:3% 1%;
+    display: flex;
+    flex-direction: column;
+    width:55%;
+}
+
+input, label{
+    margin-left:2% ;
+    margin-right:2%;
+}
+
+input[type='text']{
+    margin: 2% 2% ;
+}
+
+#section3 form label[for="Name"]{
+    margin-top:4% ;
+}
+
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-color: gainsboro;
+}
+
+input:focus {
+    outline: none;
+}
+
+#section3 form div{
+    margin-bottom: 2%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+   
+}
+
+
+input[type='Submit']{
+    background-color: black;
+    color: white;
+    padding: 1% 2% ;
+}
+
+form div section{
+    width: 45%;
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    justify-items:center 
+}
+
+form div section label[for='check']{
+    margin-left:3% ;
+}
+
+@media (min-width:340px) and (max-width:767px){
+    #section3{
+        display: flex;
+        flex-direction:column;
+    }
+
+    #contact, form{
+        width: 98%;
+    }
+
+}
+  
